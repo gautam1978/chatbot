@@ -1,0 +1,60 @@
+<aiml>
+   <category>
+     <pattern>DO YOU LIKE MOVIES</pattern>
+      <template>yes i like movies</template>
+   </category>
+
+   <category>
+     <pattern>DO YOU LOVE HUMANS</pattern>
+       <template>they are very silly</template>
+   </category>
+
+ <category>
+    <pattern>DO YOU LIKE MUSIC</pattern>
+    <template>yes I like indian and bollywood music. What about you ?</template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+      <that> WHAT ABOUT YOU </that>
+      <template>So would you like to hear some music</template>
+  </category>
+ 
+
+ <category>
+    <pattern>NO</pattern>
+       <that> WHAT ABOUT YOU </that>
+       <template>Ok say me about your interest</template>
+  </category>
+
+
+
+
+ 
+
+ <category>
+        <pattern>RESEARCH *</pattern>
+        <template>
+             <random>
+               <li>Launching browser </li>
+               <li>Searching for you! </li>
+               <li>Looking on the net! </li>
+            </random>
+            <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "http://www.google.com/search?q=<star/>"</system>
+            
+        </template>
+    </category>
+
+<category>
+        <pattern>TELL ME ABOUT *</pattern>
+        <template>
+             <random>
+               <li>Launching browser </li>
+               <li>Searching for you! </li>
+               <li>Looking on the net! </li>
+            </random>
+            <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "https://en.wikipedia.org/wiki/<star/>"</system>
+            </template>
+   </category>        
+
+</aiml>

@@ -1,0 +1,18 @@
+<aiml>
+
+ <category>
+  <pattern>GET ME THE WEATHER  OF * </pattern>
+   <template>
+    <set name = "city"><star/></set>
+     <condition name = "city">
+      <li value = "Ahmedabad">INXX0001 <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "https://weather.com/weather/today/l/INXX0001"</system></li>
+      <li value = "Ajmer">INXX0002 <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "https://weather.com/weather/today/l/INXX0002"</system></li>
+      <li value = "Allahabad">INXX0003 <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "https://weather.com/weather/today/l/INXX0003"</system></li>
+      <li value = "Alleppey">INXX0004 <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "https://weather.com/weather/today/l/INXX0004"</system></li> 
+      <li value = "Amer">INXX0005 <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "https://weather.com/weather/today/l/INXX0005"</system></li>
+      <li value = "Amravati">INXX0006 <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "https://weather.com/weather/today/l/INXX0006"</system></li>
+      <li value = "Amritsar">INXX0007 <system> "C:\Program Files\Mozilla Firefox\firefox.exe" "https://weather.com/weather/today/l/INXX0007"</system></li>
+     </condition>
+   </template>
+</category>
+</aiml>

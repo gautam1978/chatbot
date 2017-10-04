@@ -1,0 +1,54 @@
+<aiml>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello to you too</template>
+    </category>
+
+    <category>
+        <pattern>HI BRO</pattern>
+        <template>Hello whats up</template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>Hello </template>
+    </category>
+
+    <category>
+        <pattern>HOWDY</pattern>
+        <template>Hello Human</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>My name is Chatty and what is your name</template>
+    </category>
+
+    <category>
+        <pattern>OK MY NAME IS *</pattern>
+        <template>Hello <set name="name"><star/></set>
+       </template>
+    </category>
+
+<category>
+      <pattern>I HAVE A  DOG NAMED *</pattern>
+      <template>
+         That is interesting that you have a dog named <set name="dog"><star/></set>
+      </template>
+   </category>
+   <category>
+      <pattern>WHAT IS MY DOG'S NAME</pattern>
+      <template>
+         Your dog's name is <get name="dog"/>.
+      </template>
+   </category>
+
+  <category>
+    <pattern>LOAD AIML B</pattern>
+    <template>
+      <learn>wiki-search.aiml</learn>
+      <learn>weather.aiml</learn>
+    </template>
+  </category>
+
+</aiml>
